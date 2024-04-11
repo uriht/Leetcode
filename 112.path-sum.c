@@ -13,12 +13,15 @@
  *     struct TreeNode *right;
  * };
  */
-bool hasPathSum(struct TreeNode* root, int targetSum) {
-    if (root == NULL) {
+bool hasPathSum(struct TreeNode *root, int targetSum)
+{
+    if (root == NULL)
+    {
         return false;
     }
-
-    if (root->left == NULL && root->right == NULL) {
+    // Tobedeleted later
+    if (root->left == NULL && root->right == NULL)
+    {
         return root->val == targetSum;
     }
 
@@ -28,4 +31,3 @@ bool hasPathSum(struct TreeNode* root, int targetSum) {
     return leftPath || rightPath;
 }
 // @lc code=end
-
