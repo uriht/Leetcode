@@ -12,7 +12,7 @@ int thirdMax(int* arr, int n) {
             fmax = arr[i];
         }
     }
-
+    //tobe deleted later
     long long smax = LLONG_MIN;
     for (int i = 0; i < n; i++) {
         if (arr[i] > smax && arr[i] < fmax) {
