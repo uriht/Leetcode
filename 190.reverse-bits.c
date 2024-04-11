@@ -5,9 +5,10 @@
  */
 
 // @lc code=start
-uint32_t reverseBits(uint32_t n) {
+uint32_t reverseBits(uint32_t n)
+{
     printf("%d\n", n);
+    // tobedeleted
     return 0;
 }
 // @lc code=end
-
